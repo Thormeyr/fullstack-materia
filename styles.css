@@ -1,0 +1,47 @@
+header {
+    background-color: rgb(20, 50, 97);
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30pt;
+}
+
+h1{
+    color:rgb(20, 50, 97)
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#tagPaginas{
+    color: white;
+    font-size: 20pt;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0469c9;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
