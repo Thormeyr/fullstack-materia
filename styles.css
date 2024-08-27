@@ -8,8 +8,8 @@ header h1 {
     font-size: 30pt;
 }
 
-h1{
-    color:rgb(20, 50, 97)
+h2{
+    color:#0469c9
 }
 
 nav ul li {
@@ -30,7 +30,7 @@ table {
 table th, table td {
     border: 1px solid #ddd;
     padding: 8px;
-    text-align: left;
+    text-align: center;
 }
 
 table th {
