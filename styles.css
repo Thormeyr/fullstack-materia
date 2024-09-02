@@ -8,8 +8,17 @@ header h1 {
     font-size: 30pt;
 }
 
+.nome{
+    color: rgb(0, 112, 139);
+    font-size: 20pt;
+}
+
 h2{
     color:#0469c9
+}
+
+h2:hover{
+    color:#000000
 }
 
 nav ul li {
