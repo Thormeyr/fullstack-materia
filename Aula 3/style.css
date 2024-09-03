@@ -1,0 +1,50 @@
+.solid{
+    border-style: solid;
+}
+.dashed{
+    border-style: dashed;
+}
+
+p{
+    margin: 10px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+div{
+    display: inline;
+    background-color: blueviolet;
+}
+
+a{
+    display: block;
+    color: cadetblue;
+    background-color: blueviolet;
+}
+
+#ab{
+    top: 50px;
+    position: relative;
+}
+
+#bc{
+    top: 50px;
+    left: 300px;
+    position: absolute;
+}
+
+#de{
+    top: 400px;
+    left: 400px;
+    position: fixed;
+    background-color: chocolate;
+}
+
+#fg{
+    top: 396px;
+    left: 360px;
+    position: fixed;
+    background-color: rgb(46, 20, 194);
+    z-index: 2px;
+}
