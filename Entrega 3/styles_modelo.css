@@ -33,10 +33,12 @@ header h1 {
 
 nav {
     height: 40px;
-    background-color: aqua;
+    background-color: lightskyblue;
     margin-left: 10px;
     margin-right: 10px;
     font-size: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 nav a {
