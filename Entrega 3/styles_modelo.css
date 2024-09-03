@@ -54,7 +54,7 @@ nav a {
 .introduction {   
     padding-inline: 20px;
     margin-inline: 10px;
-    font-size: 20px;
+    font-size: 20pt;
     font-family: sans-serif;
     color: indigo;
 }
@@ -121,7 +121,11 @@ th{
     background-color: yellow;
     padding: 5px;
     width: 400px;
-   
     margin: auto;
     margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    white-space: nowrap;
 }
