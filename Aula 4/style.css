@@ -1,0 +1,9 @@
+.flex-container{
+    display: flex;
+    background-color: blueviolet;
+}
+
+.flex-container div{
+    background-color: brown;
+    margin: 10px;
+}
