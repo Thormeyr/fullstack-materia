@@ -18,13 +18,16 @@
 
 #d4{
     order: 1;
+    align-items: flex-end;
 }
 
 #d1{
     order: 2;
     flex-grow: 4;
+    align-items: flex-start;
 }
 
 #d2{
     order: 3;
+    align-self: center ;
 }
