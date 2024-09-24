@@ -1,0 +1,32 @@
+ul li {
+    display: inline;
+    margin: 0 10px;
+    font-size:x-small;
+}
+
+#imagem_receitas{
+    height:150px;
+    width: auto ;
+}
+
+#div_aval{
+    
+    display:flex;
+    margin-top: 20px;
+}
+h4{
+    width:100px;
+}
+
+#categorias{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#div_estrelas{
+    display:flex;
+    align-content: center;
+}
+
