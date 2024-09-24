@@ -46,17 +46,15 @@ while (true) {
     let idade = parseInt(prompt("Digite a idade (ou uma idade negativa para encerrar):"));
 
     if (idade < 0) {
-        break; // Encerra o loop quando a idade negativa é digitada
+        break; 
     }
 
     let sexo = prompt("Digite o sexo (M/F):").toUpperCase();
     let salario = parseFloat(prompt("Digite o salário:"));
 
-    // Somar o salário ao total e contar a pessoa
     totalSalario += salario;
     quantidadePessoas++;
 
-    // Atualizar maior e menor idade
     if (idade > maiorIdade) {
         maiorIdade = idade;
     }
@@ -64,7 +62,6 @@ while (true) {
         menorIdade = idade;
     }
 
-    // Contar mulheres com salário até 5000
     if (sexo === 'F' && salario <= 5000) {
         mulheresComSalarioAte5000++;
     }
