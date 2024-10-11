@@ -1,0 +1,131 @@
+body {
+    background-color: #e5e5e5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: bisque;
+    padding: 20px;
+    border: 3px solid darkblue;
+    margin: 10px;
+    margin-bottom: 0px;
+    position: relative;
+}
+
+#java{
+    right: 20px; 
+    left: auto;
+}
+
+header img {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    color: green;
+}
+
+nav {
+    height: 40px;
+    background-color: lightskyblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 30px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    color: darkred ;
+    text-decoration: none;
+    margin-inline: 30px;
+}
+
+.introduction {   
+    padding-inline: 20px;
+    margin-inline: 10px;
+    font-size: 20pt;
+    font-family: sans-serif;
+    color: indigo;
+}
+
+.books {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.books img {
+    width: 200px;
+    margin: 0 15px;
+}
+
+.learning {
+    margin: 20px;
+}
+
+.contacts {
+    padding: 20px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: bisque;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin: 10px;
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer img {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    margin-inline:400px;
+   
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px dashed red;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th{
+    color: red;
+}
+
+.yellow-highlight {
+    background-color: yellow;
+    padding: 5px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    white-space: nowrap;
+}
