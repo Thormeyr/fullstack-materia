@@ -36,8 +36,32 @@ let retangulo2 = {
     }
 }
 
+function animacao(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    
+    
+    retangulo.desenha();
+    retangulo2.desenha();
+    requestAnimationFrame(animacao);
+}
+
 retangulo.desenha();
 retangulo2.desenha();
+
+animacao();
+
+document.addEventListener("keydown", function(event){
+    if(event.key == "ArrowLeft"){
+        retangulo.x -= 5;
+    }else if(event.key == "ArrowRight"){
+        retangulo.x += 5;
+    }else if(event.key == "ArrowUp"){
+        retangulo.y -= 5;
+    }else if(event.key == "ArrowDown"){
+        retangulo.y += 5;
+    }
+});
+
 
 
 
