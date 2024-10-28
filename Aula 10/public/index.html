@@ -10,11 +10,28 @@
     <h1>Servidor</h1>
 
     <h2>Cadastra com GET:</h2>
-    <form action="/Cadastrar" method="get">
-        <p>Nome: <input type="text" name="cadastrar_nome"></p>
-        <p>Login: <input type="text" name="cadastrar_login"></p>
-        <p>Senha: <input type="text" name="cadastrar_senha"></p>
-        <p><button type="button" value="Cadastrar">Cadastrar</button></p>
+    <form action="/cadastra" method="get">
+        <p>Nome: <input type="text" name="cadastra_nome"></p>
+        <p>Nascimento: <input type="date" name="cadastra_nascimento"></p>
+        <p>Login: <input type="text" name="cadastra_login"></p>
+        <p>Senha: <input type="password" name="cadastra_senha"></p>
+        <p><button type="submit" value="cadastra">Cadastrar</button></p>
+    </form>
+
+    <h2>Cadastra com POST:</h2>
+    <form action="/cadastra" method="post">
+        <p>Nome: <input type="text" name="cadastra_nome"></p>
+        <p>Nascimento: <input type="date" name="cadastra_nascimento"></p>
+        <p>Login: <input type="text" name="cadastra_login"></p>
+        <p>Senha: <input type="password" name="cadastra_senha"></p>
+        <p><button type="submit" value="cadastra">Cadastrar</button></p>
+    </form>
+
+    <h2>Login</h2>
+    <form action="/login" method="post">
+        <p>Login: <input type="text" name="login_login"></p>
+        <p>Senha: <input type="password" name="login_senha"></p>
+        <p><button type="submit" value="login">Entrar</button></p>
 </body>
 
 </html>
