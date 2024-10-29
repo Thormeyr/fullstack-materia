@@ -16,7 +16,9 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 
-
+app.get('/', function(req, res){
+    res.redirect('Project.html');
+});
 
 app.get('/cadastra', function(req, res){
     let nome = req.query.cadastra_nome;
@@ -42,21 +44,21 @@ app.post('/login', function(req, res){
     let senha = req.body.login_senha;
     console.log('Nome: ' + nome + ' Senha: ' + senha);
 
-    verificado = false;
-    if(verificado == false){
-        res.render('resposta.ejs', {resposta: "erro", mensagem: "Login ou senha incorretos"});
+    
+    if(nome == "123" && senha == "123"){
+        res.render('resposta.ejs', {resposta: "sucesso", mensagem: "Login efetuado com sucesso"});
     }
     else{
-    res.render('resposta.ejs', {resposta: "sucesso", mensagem: "Login efetuado com sucesso"});
+        res.render('resposta.ejs', {resposta: "erro", mensagem: "Login ou senha incorretos"});
     }
 });
 
-app.get('/imprime', function(req, res){
-   let qtd = req.query.qtd;
+// app.get('/imprime', function(req, res){
+//    let qtd = req.query.qtd;
 
-   res.render('imprime.ejs', {qtd: qtd});
+//    res.render('imprime.ejs', {qtd: qtd});
 
-});
+// });
 
 
 
